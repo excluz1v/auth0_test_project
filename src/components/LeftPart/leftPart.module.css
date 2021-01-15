@@ -1,0 +1,54 @@
+.leftPart {
+  width: 100%;
+
+  background-color: #151a22;
+  color: #8d8f94;
+  padding: 1rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.leftPart h1 {
+  color: #e0e1e2;
+}
+header {
+  margin-bottom: 10rem;
+}
+header img {
+  color: #fff;
+  height: 3rem;
+  padding: 3rem 0 0;
+}
+header div {
+  display: inline-block;
+  width: 55px;
+  color: #c9cacc;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+section {
+  align-items: center;
+}
+section h1,
+section h3 {
+  font-weight: 300;
+}
+section div {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+section button {
+  background-color: #00a876;
+  color: #fff;
+  border: none;
+  height: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  .leftPart {
+    height: auto;
+    flex-direction: row;
+    padding: 1rem;
+  }
+}
